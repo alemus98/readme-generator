@@ -1,4 +1,4 @@
-# test title
+# README Generator
 
   [![MIT license](https://img.shields.io/badge/License-MIT-green.svg)](https://lbesson.mit-license.org/)
 
