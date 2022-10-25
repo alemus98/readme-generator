@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./Develop/utils/generateMarkdown');
 const fileName = 'README.md';
 
 const questions = [
@@ -34,13 +34,13 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use your project?'
+        message: 'Provide instructions for how to use your project'
     },
 
     {
         type: 'input',
         name: 'contributors',
-        message: 'Were there any contributors for your project?'
+        message: 'List any contributors for your project'
     },
 
     {
@@ -75,5 +75,5 @@ function init() {
         });
 };
 
-// Function call to initialize app
+
 init();
