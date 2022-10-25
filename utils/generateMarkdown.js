@@ -19,7 +19,23 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
-  * 
+  * [Usage](#usage)
+  * [Contributors](#contributors)
+  * [Licenses](#licenses)
+  
+  ## Description
+  ${data.description}
+  
+  ## Installation
+  ${data.installation}
+  
+  ## Usage
+  ${data.usage}
+
+  ## Contributors
+  Contributors: ${data.contributions}
+
+  ${renderLicenseSection(data.licenses)}
 `;
 }
 
